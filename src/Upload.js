@@ -174,7 +174,7 @@ class Upload extends Component {
                         </Alert>
                     )}
 
-                    <Form onSubmit={this.handleSubmit} >
+                    <Form method='POST' onSubmit={this.handleSubmit} >
                         <FormGroup>
                            <h3 className="text-danger">{processing}</h3>    
                            <h6>UPLOAD PAN CARD</h6>
